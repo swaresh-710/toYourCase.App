@@ -30,8 +30,8 @@ export default function TextForm( props){
     </div>
     <textarea className="form-control" value={text} onChange={handleOnChange} id="mybox" rows="8"></textarea>
    
-<button className="btn btn-primary" onClick={handleUpClick}> onvert to upper</button>
-<button className="btn btn-primary" onClick={handleLowClick}> onvert to upper</button>
+<button className="btn btn-primary" onClick={handleUpClick}> Convert to Upper</button>
+<button className="btn btn-primary" onClick={handleLowClick}> Convert to Lower</button>
 
 
 
